@@ -1,36 +1,108 @@
 ````markdown
-# Practical 2 – Selection Sort
+# PRACTICAL 01 – Sorting Algorithms
 
 ## Aim
-To implement Selection Sort in Python and analyze its time complexity.
+To implement different sorting algorithms in Python and analyze their time complexity and execution time.
 
-## Description
-Selection Sort repeatedly finds the smallest element from the unsorted part of the list and places it at the correct position.
+## Algorithms Implemented
 
-## Input
-```text
-Enter numbers separated by spaces: 5 7 2 1 8 4 6
-````
+### 1. Bubble Sort
+Repeatedly compares adjacent elements and swaps them if they are in the wrong order.
 
-## Output
+- Best Case: O(n)*
+- Average Case: O(n²)
+- Worst Case: O(n²)
+- Space: O(1)
 
+### 2. Selection Sort
+Finds the smallest element from the unsorted part and places it at the correct position.
+
+- Best Case: O(n²)
+- Average Case: O(n²)
+- Worst Case: O(n²)
+- Space: O(1)
+- Comparisons: `n(n-1)/2`
+
+### 3. Insertion Sort
+Builds the sorted list one element at a time by inserting each element into its correct position.
+
+- Best Case: O(n)
+- Average Case: O(n²)
+- Worst Case: O(n²)
+- Space: O(1)
+
+### 4. Quick Sort
+Uses a pivot to partition the array into smaller and larger elements and recursively sorts them.
+
+- Best Case: O(n log n)
+- Average Case: O(n log n)
+- Worst Case: O(n²)
+- Space: O(log n) average recursion stack
+
+### 5. Merge Sort
+Divides the list into smaller parts, sorts them recursively, and merges the sorted parts.
+
+- Best Case: O(n log n)
+- Average Case: O(n log n)
+- Worst Case: O(n log n)
+- Space: O(n)
+
+## Sample Outputs
+
+### Bubble Sort
 ```text
 Original list: [5, 7, 2, 1, 8, 4, 6]
-Sorted list (Selection Sort): [1, 2, 4, 5, 6, 7, 8]
-Time Complexity: O(n^2)
-Execution Time: 0.000013 seconds
+Sorted list: [1, 2, 4, 5, 6, 7, 8]
+Time Complexity: O(n²)
+````
+
+### Selection Sort
+
+```text
+Original list: [20, 40, 10, 30, 90, 50]
+Sorted list: [10, 20, 30, 40, 50, 90]
+Time Complexity: O(n²)
 ```
 
-## Complexity
+### Insertion Sort
 
-* Best Case: O(n²)
-* Average Case: O(n²)
-* Worst Case: O(n²)
-* Space Complexity: O(1)
+```text
+Original list: [50, 20, 90, 70, 10]
+Sorted list: [10, 20, 50, 70, 90]
+Time Complexity: O(n²)
+```
+
+### Quick Sort
+
+```text
+Original list: [40, 20, 80, 90, 10, 30]
+Sorted list: [10, 20, 30, 40, 80, 90]
+Time Complexity: O(n log n)
+```
+
+### Merge Sort
+
+```text
+Original list: [30, 20, 10, 60, 40, 90]
+Sorted list: [10, 20, 30, 40, 60, 90]
+Time Complexity: O(n log n)
+```
+
+## Comparison
+
+| Algorithm      | Best       | Average    | Worst      |
+| -------------- | ---------- | ---------- | ---------- |
+| Bubble Sort    | O(n)       | O(n²)      | O(n²)      |
+| Selection Sort | O(n²)      | O(n²)      | O(n²)      |
+| Insertion Sort | O(n)       | O(n²)      | O(n²)      |
+| Quick Sort     | O(n log n) | O(n log n) | O(n²)      |
+| Merge Sort     | O(n log n) | O(n log n) | O(n log n) |
+
+> *Bubble Sort is O(n) in the best case only when the implementation includes a swap-check/early-exit optimization. The given code does not include that optimization, so its best case is also O(n²).*
 
 ## Conclusion
 
-Selection Sort is a simple sorting algorithm that repeatedly selects the smallest element and places it in the correct position.
+Different sorting algorithms have different performance characteristics. Bubble, Selection, and Insertion Sort are simple but generally slower for large data, while Quick Sort and Merge Sort provide better average performance with O(n log n) complexity.
 
 ```
 ```
