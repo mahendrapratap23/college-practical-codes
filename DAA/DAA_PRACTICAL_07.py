@@ -38,7 +38,7 @@ print(f"Execution Time: {execution_time:.6f} seconds")
 
 
 # Output:
-#
+
 # Enter coin denominations: 1 2 5
 # Enter amount: 13
 # Minimum number of coins: 4
