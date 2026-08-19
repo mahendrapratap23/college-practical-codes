@@ -44,3 +44,6 @@ print(f"Execution Time: {execution_time:.6f} seconds")
 # Minimum number of coins: 4
 # Time Complexity: O(n × amount)
 # Execution Time: 0.000119 seconds
+# Because:
+#13 = 5 + 5 + 2 + 1
+#So, minimum coins = 4, not 5
