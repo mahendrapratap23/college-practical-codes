@@ -4,6 +4,9 @@ This repository contains my practical programs and implementations completed dur
 
 ## 📚 Subjects Covered
 
+### Artificial Intelligence 
+* bots using algorithms and formulas
+
 ### 🤖 Machine Learning
 
 * Linear Regression
@@ -21,6 +24,10 @@ This repository contains my practical programs and implementations completed dur
 * Quick Sort
 * Insertion Sort
 * Selection Sort
+* Heap Sort (MAX)
+* Factorial using iteration/Recursion
+* Change problem using DP
+* Knapsack
 
 ## 📂 Repository Structure
 
