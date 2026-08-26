@@ -1,0 +1,131 @@
+# Practical 7 – Making Change Problem Using Dynamic Programming
+
+## Aim
+
+To implement the **Making Change Problem using Dynamic Programming** in Python.
+
+## Description
+
+The Making Change Problem finds the **minimum number of coins** required to make a given amount.
+
+The program uses **Dynamic Programming** to store previously calculated results and avoid repeated calculations.
+
+## Algorithm
+
+1. Take the coin denominations as input.
+2. Take the amount to be made.
+3. Create a DP array to store the minimum number of coins.
+4. Start with `0` coins for amount `0`.
+5. For each amount, check all available coins.
+6. If a coin can be used, calculate the minimum number of coins.
+7. Store the best result in the DP array.
+8. Print the minimum number of coins required.
+
+## Program
+
+```python
+import time
+
+def making_change(coins, amount):
+
+    # Create DP array
+    dp = [amount + 1] * (amount + 1)
+
+    # 0 coins are needed to make amount 0
+    dp[0] = 0
+
+    # Calculate minimum coins
+    for i in range(1, amount + 1):
+
+        for coin in coins:
+
+            if coin <= i:
+                dp[i] = min(dp[i], dp[i - coin] + 1)
+
+    return dp[amount]
+
+
+# Input
+coins = list(map(int, input("Enter coin denominations: ").split()))
+amount = int(input("Enter amount: "))
+
+# Start time
+start = time.time()
+
+answer = making_change(coins, amount)
+
+# End time
+end = time.time()
+
+# Output
+print("Minimum number of coins:", answer)
+print("Time Complexity: O(n × amount)")
+print(f"Execution Time: {end - start:.6f} seconds")
+```
+
+## Sample Input
+
+```text
+Enter coin denominations: 1 2 5
+Enter amount: 13
+```
+
+## Sample Output
+
+```text
+Minimum number of coins: 4
+Time Complexity: O(n × amount)
+Execution Time: 0.000119 seconds
+```
+
+## Explanation
+
+For the amount 13 and coins 1, 2, 5:
+
+```text
+13 = 5 + 5 + 2 + 1
+```
+
+Number of coins:
+
+```text
+5 + 5 + 2 + 1 = 4 coins
+```
+
+Therefore:
+
+```text
+Minimum number of coins = 4
+```
+
+## Key Concept
+
+The main idea is to find the **minimum number of coins** for every smaller amount and use those results to find the answer for the required amount.
+
+For example:
+
+```text
+Amount 13
+↓
+Try coin 1
+Try coin 2
+Try coin 5
+↓
+Choose the minimum
+```
+
+## Complexity
+
+* **Time Complexity:** `O(n × amount)`
+* **Space Complexity:** `O(amount)`
+
+Where:
+
+* `n` = number of coin denominations
+* `amount` = target amount
+
+## Conclusion
+
+The **Making Change Problem** is successfully implemented using **Dynamic Programming**.
+
+The algorithm efficiently finds the **minimum number of coins** required to make the given amount.
