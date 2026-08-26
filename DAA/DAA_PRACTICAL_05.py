@@ -49,3 +49,10 @@ end = time.time()
 print("Maximum value:", answer)
 print("Time Complexity: O(n * W)")
 print(f"Execution Time: {end - start:.6f} seconds")
+
+#Enter weights: 2 3 4 5 6
+#Enter values: 3 4 5 6 7 
+#Enter capacity: 5
+#Maximum value: 7
+#Time Complexity: O(n * W)
+#Execution Time: 0.000142 seconds
