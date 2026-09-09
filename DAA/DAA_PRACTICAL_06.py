@@ -42,10 +42,10 @@ print(f"Execution Time: {execution_time:.6f} seconds")
 
 # Output:
 #
-# Enter matrix dimensions: 10 20 30 40
-# Minimum number of multiplications: 18000
-# Time Complexity: O(n^3)
-# Execution Time: 0.000XXX seconds
+# Enter matrix dimensions: 10 20 30 40 
+#Minimum number of multiplications: 13000
+#Time Complexity: O(n^3)
+#Execution Time: 0.000123 seconds
 #
 # Because:
 # A1 = 10 × 20
