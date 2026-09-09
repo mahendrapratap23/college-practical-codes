@@ -1,0 +1,44 @@
+Here is the **Matrix Chain Multiplication** version in the exact same practical-report format:
+
+# Practical 8 – Matrix Chain Multiplication using Dynamic Programming
+
+## Aim
+
+To implement the **Matrix Chain Multiplication Problem using Dynamic Programming** in Python.
+
+## Description
+
+The Matrix Chain Multiplication Problem finds the **best order to multiply a sequence of matrices** so that the total number of scalar multiplications is minimum.
+
+The program uses Dynamic Programming to store previously calculated results and avoid repeated calculations.
+
+## Sample Input
+
+```text
+Enter matrix dimensions: 10 20 30 40
+```
+
+## Sample Output
+
+```text
+Minimum number of multiplications: 18000
+Time Complexity: O(n^3)
+Execution Time: 0.000119 seconds
+
+Because:
+A1 = 10 × 20
+A2 = 20 × 30
+A3 = 30 × 40
+
+Best order:
+(A1 × A2) × A3
+
+Cost:
+(10 × 20 × 30) + (10 × 30 × 40)
+= 6000 + 12000
+= 18000
+```
+
+## Conclusion
+
+The **Matrix Chain Multiplication Problem** is successfully implemented using Dynamic Programming. The algorithm efficiently finds the **minimum number of scalar multiplications** required to multiply a sequence of matrices.
