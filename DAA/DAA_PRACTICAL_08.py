@@ -33,3 +33,20 @@ def bfs(start):
             if neighbour not in visited:
                 visited.add(neighbour)
                 queue.append(neighbour)
+
+
+# DFS
+start = time.time()
+print("DFS:", end=" ")
+dfs(0, set())
+print()
+print("DFS Time:", time.time() - start)
+
+# BFS
+start = time.time()
+print("BFS:", end=" ")
+bfs(0)
+print()
+print("BFS Time:", time.time() - start)
+
+print("Time Complexity: O(V + E)")
