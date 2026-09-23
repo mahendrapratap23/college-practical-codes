@@ -50,3 +50,12 @@ print()
 print("BFS Time:", time.time() - start)
 
 print("Time Complexity: O(V + E)")
+
+# Time Complexity: O(V + E)
+
+# Output:
+# DFS: 0 1 3 2 4
+# DFS Time: 3.9577484130859375e-05
+# BFS: 0 1 2 3 4
+# BFS Time: 2.193450927734375e-05
+# Time Complexity: O(V + E)
