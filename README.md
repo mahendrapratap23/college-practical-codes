@@ -46,6 +46,7 @@ Implementations of classical algorithms with time complexity analysis and empiri
 | **06** | **Matrix Chain Multiplication** | `.py` | Optimal parenthesization using dynamic programming |
 | **07** | **Making Change (Optimized)** | `.py` | Optimal sub-structure and tabulation analysis |
 | **08** | **Graph Traversals** | `.py` | Breadth-First Search (BFS) & Depth-First Search (DFS) |
+| **09** | **Prim's Algorithm** | `.py` | Minimum Spanning Tree (MST), greedy approach |
 
 ---
 
@@ -91,7 +92,8 @@ college-practical-codes/
 │   ├── DAA_PRACTICAL_06.py             # Matrix Chain Multiplication (DP)
 │   ├── DAA_PRACTICAL_07.py             # Making Change Problem (Analysis)
 │   ├── DAA_PRACTICAL_08.py             # Graph Traversals (BFS & DFS)
-│   └── Practical 01-08 Read.me         # Detailed aims, complexity & sample outputs
+│   ├── DAA_PRACTICAL_09.py             # Prim's Algorithm (Minimum Spanning Tree)
+│   └── Practical 01-09 Read.me         # Detailed aims, complexity & sample outputs
 │
 ├── 🤖 Machine Learning/
 │   ├── MACHINE_LEARNING_ESSENTIALS (1).ipynb  # Pandas, Matplotlib & Preprocessing
