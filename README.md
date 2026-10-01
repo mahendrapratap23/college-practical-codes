@@ -69,6 +69,8 @@ Intelligent agent design, search algorithms, game-theoretic adversarial search, 
 - 🗺️ **Grid World Search & Navigation:** Pathfinding and spatial decision-making on discrete grids.
 - ♟️ **Adversarial Search (Game Playing):** Minimax algorithm with $\alpha$-$\beta$ pruning for turn-based games (e.g., Tic-Tac-Toe).
 - 💡 **Rule-Based Expert System:** Knowledge base representation with forward/backward inference logic.
+- 🩺 **Probabilistic Diagnosis Classifier:** Binary symptom inference and diagnosis modeling using Bernoulli Naive Bayes (`BernoulliNB`).
+- 📩 **Mini AI Text Classification Application:** Bag-of-Words text vectorization with `CountVectorizer` and spam detection using Multinomial Naive Bayes (`MultinomialNB`).
 
 ---
 
@@ -81,7 +83,9 @@ college-practical-codes/
 │   ├── AI_PRACTICAL 01 & 02.ipynb      # Reflex & Goal-based agent in toy environment
 │   ├── AI_PRACTICAL_03.ipynb           # Grid world navigation & agent exploration
 │   ├── AI_PRACTICAL_04.ipynb           # Minimax with Alpha-Beta pruning (Game Agent)
-│   └── AI_PRACTICAL_05.ipynb           # Rule-based expert system
+│   ├── AI_PRACTICAL_05.ipynb           # Rule-based expert system
+│   ├── AI_PRACTICAL_07.ipynb           # Probabilistic diagnosis model (Bernoulli Naive Bayes)
+│   └── AI_practical_08.ipynb           # Mini AI text classification & spam detector (Multinomial NB)
 │
 ├── ⚡ DAA/
 │   ├── DAA_PRACTICAL_01.ipynb          # Sorting algorithms comparison & analysis
