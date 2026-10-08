@@ -71,6 +71,7 @@ Intelligent agent design, search algorithms, game-theoretic adversarial search, 
 - 💡 **Rule-Based Expert System:** Knowledge base representation with forward/backward inference logic.
 - 🩺 **Probabilistic Diagnosis Classifier:** Binary symptom inference and diagnosis modeling using Bernoulli Naive Bayes (`BernoulliNB`).
 - 📩 **Mini AI Text Classification Application:** Bag-of-Words text vectorization with `CountVectorizer` and spam detection using Multinomial Naive Bayes (`MultinomialNB`).
+- 📋 **Goal Stack Planner:** Classical STRIPS-style goal stack planning algorithm handling states, preconditions, add/delete lists, and action decomposition.
 
 ---
 
@@ -85,7 +86,8 @@ college-practical-codes/
 │   ├── AI_PRACTICAL_04.ipynb           # Minimax with Alpha-Beta pruning (Game Agent)
 │   ├── AI_PRACTICAL_05.ipynb           # Rule-based expert system
 │   ├── AI_PRACTICAL_07.ipynb           # Probabilistic diagnosis model (Bernoulli Naive Bayes)
-│   └── AI_practical_08.ipynb           # Mini AI text classification & spam detector (Multinomial NB)
+│   ├── AI_practical_08.ipynb           # Mini AI text classification & spam detector (Multinomial NB)
+│   └── AI_PRACTICAL_09.ipynb           # Goal Stack Planner implementation (STRIPS actions)
 │
 ├── ⚡ DAA/
 │   ├── DAA_PRACTICAL_01.ipynb          # Sorting algorithms comparison & analysis
