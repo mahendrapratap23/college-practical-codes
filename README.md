@@ -88,12 +88,12 @@ college-practical-codes/
 │   ├── AI_PRACTICAL_03.ipynb           # Grid world navigation & agent exploration
 │   ├── AI_PRACTICAL_04.ipynb           # Minimax with Alpha-Beta pruning (Game Agent)
 │   ├── AI_PRACTICAL_05.ipynb           # Rule-based expert system
-│   ├── AI_Practical6.ipynb             # Map coloring CSP using backtracking & consistency check
+│   ├── AI_PRACTICAL_06.ipynb           # Map coloring CSP using backtracking & consistency check
 │   ├── AI_PRACTICAL_07.ipynb           # Probabilistic diagnosis model (Bernoulli Naive Bayes)
-│   ├── AI_practical_08.ipynb           # Mini AI text classification & spam detector (Multinomial NB)
+│   ├── AI_PRACTICAL_08.ipynb           # Mini AI text classification & spam detector (Multinomial NB)
 │   ├── AI_PRACTICAL_09.ipynb           # Goal Stack Planner implementation (STRIPS actions)
-│   ├── AI_practical_10.ipynb           # MDP Value Iteration & optimal policy extraction
-│   └── AI_practical_11.ipynb           # Forward chaining rule-based inference engine
+│   ├── AI_PRACTICAL_10.ipynb           # MDP Value Iteration & optimal policy extraction
+│   └── AI_PRACTICAL_11.ipynb           # Forward chaining rule-based inference engine
 │
 ├── ⚡ DAA/
 │   ├── DAA_PRACTICAL_01.ipynb          # Sorting algorithms comparison & analysis
