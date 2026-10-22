@@ -72,6 +72,7 @@ Intelligent agent design, search algorithms, game-theoretic adversarial search, 
 - 🩺 **Probabilistic Diagnosis Classifier:** Binary symptom inference and diagnosis modeling using Bernoulli Naive Bayes (`BernoulliNB`).
 - 📩 **Mini AI Text Classification Application:** Bag-of-Words text vectorization with `CountVectorizer` and spam detection using Multinomial Naive Bayes (`MultinomialNB`).
 - 📋 **Goal Stack Planner:** Classical STRIPS-style goal stack planning algorithm handling states, preconditions, add/delete lists, and action decomposition.
+- 🔄 **Markov Decision Process (MDP) & Value Iteration:** Value iteration algorithm to compute optimal state values and extract the best policy under discounted rewards ($\gamma$).
 
 ---
 
@@ -87,7 +88,8 @@ college-practical-codes/
 │   ├── AI_PRACTICAL_05.ipynb           # Rule-based expert system
 │   ├── AI_PRACTICAL_07.ipynb           # Probabilistic diagnosis model (Bernoulli Naive Bayes)
 │   ├── AI_practical_08.ipynb           # Mini AI text classification & spam detector (Multinomial NB)
-│   └── AI_PRACTICAL_09.ipynb           # Goal Stack Planner implementation (STRIPS actions)
+│   ├── AI_PRACTICAL_09.ipynb           # Goal Stack Planner implementation (STRIPS actions)
+│   └── AI_practical_10.ipynb           # MDP Value Iteration & optimal policy extraction
 │
 ├── ⚡ DAA/
 │   ├── DAA_PRACTICAL_01.ipynb          # Sorting algorithms comparison & analysis
