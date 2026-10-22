@@ -69,6 +69,7 @@ Intelligent agent design, search algorithms, game-theoretic adversarial search, 
 - 🗺️ **Grid World Search & Navigation:** Pathfinding and spatial decision-making on discrete grids.
 - ♟️ **Adversarial Search (Game Playing):** Minimax algorithm with $\alpha$-$\beta$ pruning for turn-based games (e.g., Tic-Tac-Toe).
 - 💡 **Rule-Based Expert System:** Knowledge base representation with forward/backward inference logic.
+- 🎨 **Constraint Satisfaction (Map Coloring):** CSP solver using recursive backtracking and consistency checking to color connected graph regions without conflicts.
 - 🩺 **Probabilistic Diagnosis Classifier:** Binary symptom inference and diagnosis modeling using Bernoulli Naive Bayes (`BernoulliNB`).
 - 📩 **Mini AI Text Classification Application:** Bag-of-Words text vectorization with `CountVectorizer` and spam detection using Multinomial Naive Bayes (`MultinomialNB`).
 - 📋 **Goal Stack Planner:** Classical STRIPS-style goal stack planning algorithm handling states, preconditions, add/delete lists, and action decomposition.
@@ -87,6 +88,7 @@ college-practical-codes/
 │   ├── AI_PRACTICAL_03.ipynb           # Grid world navigation & agent exploration
 │   ├── AI_PRACTICAL_04.ipynb           # Minimax with Alpha-Beta pruning (Game Agent)
 │   ├── AI_PRACTICAL_05.ipynb           # Rule-based expert system
+│   ├── AI_Practical6.ipynb             # Map coloring CSP using backtracking & consistency check
 │   ├── AI_PRACTICAL_07.ipynb           # Probabilistic diagnosis model (Bernoulli Naive Bayes)
 │   ├── AI_practical_08.ipynb           # Mini AI text classification & spam detector (Multinomial NB)
 │   ├── AI_PRACTICAL_09.ipynb           # Goal Stack Planner implementation (STRIPS actions)
