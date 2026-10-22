@@ -73,6 +73,7 @@ Intelligent agent design, search algorithms, game-theoretic adversarial search, 
 - 📩 **Mini AI Text Classification Application:** Bag-of-Words text vectorization with `CountVectorizer` and spam detection using Multinomial Naive Bayes (`MultinomialNB`).
 - 📋 **Goal Stack Planner:** Classical STRIPS-style goal stack planning algorithm handling states, preconditions, add/delete lists, and action decomposition.
 - 🔄 **Markov Decision Process (MDP) & Value Iteration:** Value iteration algorithm to compute optimal state values and extract the best policy under discounted rewards ($\gamma$).
+- ⏩ **Forward Chaining Inference Engine:** Automated rule-based deduction algorithm that iteratively derives new facts from a knowledge base until no further conclusions can be drawn.
 
 ---
 
@@ -89,7 +90,8 @@ college-practical-codes/
 │   ├── AI_PRACTICAL_07.ipynb           # Probabilistic diagnosis model (Bernoulli Naive Bayes)
 │   ├── AI_practical_08.ipynb           # Mini AI text classification & spam detector (Multinomial NB)
 │   ├── AI_PRACTICAL_09.ipynb           # Goal Stack Planner implementation (STRIPS actions)
-│   └── AI_practical_10.ipynb           # MDP Value Iteration & optimal policy extraction
+│   ├── AI_practical_10.ipynb           # MDP Value Iteration & optimal policy extraction
+│   └── AI_practical_11.ipynb           # Forward chaining rule-based inference engine
 │
 ├── ⚡ DAA/
 │   ├── DAA_PRACTICAL_01.ipynb          # Sorting algorithms comparison & analysis
